@@ -1,0 +1,26 @@
+﻿# Maven build output
+target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+application-local.properties
+application-local.yml
+
+# IDE settings
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local update helper script
+Update-RailConnect-RemainingScreens.ps1
+
+# Local source backups
+*.backup
+*.bak
